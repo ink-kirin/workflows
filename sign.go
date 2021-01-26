@@ -172,7 +172,7 @@ func signLd246(ch chan<- string) {
 }
 
 func sign() {
-	num := 4
+	num := 1
 	desp := ""
 	ch := make(chan string, num)
 
