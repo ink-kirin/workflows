@@ -179,9 +179,9 @@ func sign() {
 	go signGlados(ch, "1")
 	// go signGlados(ch, "2")
 	// go signGlados(ch, "3")
-	go signV2ex(ch)
-	go signStudyGolang(ch)
-	go signLd246(ch)
+	// go signV2ex(ch)
+	// go signStudyGolang(ch)
+	// go signLd246(ch)
 
 	for i := 0; i < num; i++ {
 		desp += <-ch + "\n"
